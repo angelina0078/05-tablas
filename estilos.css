@@ -1,3 +1,54 @@
-#tabla{
-    background-color: aquamarine;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+
+body{
+ color: aliceblue;
+ background: rgb(3,75,91);
+ background: radial-gradient(circle, rgba(3,75,91,0.937395026369923) 8%, rgba(20,3,91,0.94859950816264) 65%, rgba(4,18,99,0.937395026369923) 100%); 
+    /* background-repeat: no-repeat;
+    background-size: cover;*/
 }
+td{
+    padding: 10px 40px; 
+    background: rgba(44, 49, 85, 0.418);
+   }
+th{
+   padding: 10px 40px; 
+   background: rgba(44, 49, 85, 0.418);
+  }
+#nombre{
+    padding:10px 700px 10px 0px
+}
+
+#tabla{
+padding: 5em
+
+}
+#encabezado {
+    list-style: none;
+    /*elimina los puntos, viñetas*/
+}
+
+#encabezado li{
+    display: inline-block;
+    padding: 10px;
+}
+#opciones {
+    text-align: center;
+    list-style: none;
+    /*elimina los puntos, viñetas*/
+}
+
+#opciones li{
+    display: inline-block;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding: 5px;
+    border-radius: 5px;
+    display: i;
+}
+
+
+
